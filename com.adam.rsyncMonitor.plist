@@ -1,0 +1,42 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>label</key>
+        <string>com.adam.rsyncMonitor</string>
+
+	<key>EnvironmentVariables</key>
+	<dict>
+	  <key>KDATA_ROOT</key>
+	  <string>/Users/adam/softwareDev/kData</string>
+	  <key>PYTHONPATH</key>
+	  <string>/Users/adam/softwareDev/root/v5.28.00/lib:/Users/adam/softwareDev/kData/lib</string>
+	  <key>ROOTSYS</key>
+	  <string>/Users/adam/softwareDev/root/v5.28.00</string>
+	  <key>DYLD_LIBRARY_PATH</key>
+	  <string>/Users/adam/softwareDev/kData/lib:/Users/adam/softwareDev/root/v5.28.00/lib</string>
+	</dict>
+
+	<key>Program</key>
+        <array>
+                <string>/Users/adam/Scripts/monitorWebPageMirror/rsyncMonitor.sh</string>
+	</array>
+	
+	<key>ProgramArguments</key>
+        <array>
+                <string>/Users/adam/Scripts/monitorWebPageMirror/rsyncMonitor.sh</string>
+	</array>
+
+	<key>StandardOutPath</key>
+	<string>/Users/adam/Scripts/monitorWebPageMirror/scriptStdOut.log</string>
+	
+	<key>StandardErrorPath</key>
+	<string>/Users/adam/Scripts/monitorWebPageMirror/scriptStdErr.log</string>
+	
+	<key>UserName</key>
+	<string>adam</string>
+	
+	<key>StartInterval</key>
+	<integer>600</integer>
+
+</dict>
+</plist>
