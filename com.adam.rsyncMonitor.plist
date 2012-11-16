@@ -9,11 +9,11 @@
 	  <key>KDATA_ROOT</key>
 	  <string>/Users/adam/softwareDev/kData</string>
 	  <key>PYTHONPATH</key>
-	  <string>/Users/adam/softwareDev/root/v5.28.00/lib:/Users/adam/softwareDev/kData/lib</string>
+	  <string>/Users/adam/softwareDev/root/v5.34.02/lib:/Users/adam/softwareDev/kData/lib</string>
 	  <key>ROOTSYS</key>
-	  <string>/Users/adam/softwareDev/root/v5.28.00</string>
+	  <string>/Users/adam/softwareDev/root/v5.34.02</string>
 	  <key>DYLD_LIBRARY_PATH</key>
-	  <string>/Users/adam/softwareDev/kData/lib:/Users/adam/softwareDev/root/v5.28.00/lib</string>
+	  <string>/Users/adam/softwareDev/kData/lib:/Users/adam/softwareDev/root/v5.30.01/lib</string>
 	</dict>
 
 	<key>Program</key>
